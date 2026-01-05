@@ -1,6 +1,8 @@
 # TaniasBank API
 
 A mini FinTech-style backend built with Node.js, PostgreSQL, Docker, and Playwright.
+This project was built to demonstrate backend fundamentals and API test automation for junior QA/automation roles.
+Testing strategy: (health/db-health, auth flows, negative paths, DB reset)
 
 ## Tech Stack
 - Node.js + Express
@@ -25,3 +27,5 @@ A mini FinTech-style backend built with Node.js, PostgreSQL, Docker, and Playwri
 docker compose up -d
 cd api
 npm start
+e2e npm test
+
